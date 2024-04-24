@@ -1,0 +1,30 @@
+*{box-sizing: border-box}
+body{border:1px solid red; 
+    margin: 0px}
+header,nav,section,aside,footer{border:1px solid green;
+    padding: 20px;
+    font-family: Franklin Gothic;
+    text-align: center;}
+header{width:100%;
+        background-color: dimgrey}
+nav{width:20%;
+    float:left;
+    height:400px;
+    background-color:rgb(186,186,186); }
+section{width:60%;
+        float:left;
+        height:400px;}
+aside{width:20%;
+      float:left;
+      height:400px;}
+footer{width:100%;
+       clear:left;}
+table{border:1px solid black;
+      border-collapse: collapse}
+tr,th,td{border:1px solid white;
+         padding: 5px}
+#logo {width: 150px;
+       float: left;}
+td{background-color: darkgrey;}
+th{background-color: darkslategrey;
+    colour: white;}
